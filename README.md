@@ -11,6 +11,17 @@
 
 ## 安装
 
+需要 Python 3.8+，然后安装以下依赖：
+
+```bash
+pip install opencv-python ultralytics
+```
+
+- `opencv-python`：摄像头调用和图像处理
+- `ultralytics`：YOLOv8 目标检测框架（会自动安装 PyTorch、numpy 等依赖）
+
+也可以用 requirements.txt 一键安装：
+
 ```bash
 pip install -r requirements.txt
 ```
